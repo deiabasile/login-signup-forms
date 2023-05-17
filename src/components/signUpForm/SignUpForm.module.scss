@@ -1,0 +1,27 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formWrapper {
+  background-color: #facab9;
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+h2 {
+  border-left: 5px solid white;
+  padding-left: 10px;
+}
+
+h6 {
+  font-size: xx-small;
+  align-self: flex-end;
+}
